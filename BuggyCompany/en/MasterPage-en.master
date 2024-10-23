@@ -18,7 +18,7 @@
 <div>
 
     <div class="divMain" runat="server">
-        <b>XecureApp Warfare v0.4 </b> <br /><br />
+        <b>XecureApp Warfare v0.3 </b> <br /><br />
         <img alt="" src="../Images/Logos/HEATHER%20FOR%20WEB1.jpg" style="width: 100%; height: 217px" runat="server" />
              
     </div>
