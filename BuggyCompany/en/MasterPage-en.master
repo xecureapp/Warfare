@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage-en.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Buggy company</title>
+    <link href="../MainStyleSheet.css" rel="stylesheet" type="text/css" />
+    
+ 
+        <script type="text/javascript" src="../js/bugs.js"></script>
+ 
+    </head>
+<body>
+<center>
+    <form id="form1" runat="server" >
+
+<div>
+
+    <div class="divMain" runat="server">
+        <b>XecureApp Warfare v0.4 </b> <br /><br />
+        <img alt="" src="../Images/Logos/HEATHER%20FOR%20WEB1.jpg" style="width: 100%; height: 217px" runat="server" />
+             
+    </div>
+    <%-- div--%>
+    <div class="divMain" runat="server">
+           <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="500px" 
+               ForeColor="#003366">
+             <StaticMenuStyle BorderColor="#FF3300" BorderWidth="1px" />
+                <StaticSelectedStyle BackColor="#FF3300" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="10px" BackColor="White" />
+                <StaticHoverStyle BackColor="#FF3300" ForeColor="White" />
+               <Items>
+                   <asp:MenuItem Text="Company" Value="Company" NavigateUrl="~/Default.aspx"></asp:MenuItem>
+                   <asp:MenuItem Text="Products" Value="Products" NavigateUrl="~/en/Product.aspx"></asp:MenuItem>
+                   <asp:MenuItem Text="Service" Value="Service" NavigateUrl="~/en/Service.aspx"></asp:MenuItem>
+                   <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/en/Contact.aspx"></asp:MenuItem>
+               </Items>
+           </asp:Menu>
+           <br />
+    </div>
+  
+    
+    <div class="divMain">
+       <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+       </asp:ContentPlaceHolder>
+    </div>
+    
+           
+ </div>
+
+ </form>
+</center>
+</body>
+</html>
