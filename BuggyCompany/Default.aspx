@@ -15,6 +15,26 @@
 <p>With a client-centric approach, a focus on quality, and a team of skilled professionals, Buggy Company is the go-to choice for businesses seeking custom software development. We pride ourselves on delivering innovative, reliable, and efficient solutions that empower organizations to streamline their operations, enhance productivity, and drive growth. Experience the difference of working with a trusted partner like Buggy Company and unlock the true potential of your business with our tailor-made software solutions.</p>
 
 
+
+
+    <table border="1">
+    <tr>
+        <th>WSTG - Web Security Testing Guide</th>
+    </tr>
+    <tr>
+        <th>Section</th>
+        <th>Details</th>
+        <th>link</th>
+    </tr>
+    <tr>
+        <td>4.7 Input Validation Testing</td>
+        <td>4.7.1 Testing for Reflected Cross Site Scripting</td>
+        <td><a href="InputValidationTesting/ReflectedCrossSiteScripting.aspx">ReflectedCrossSiteScripting</a></td>
+    </tr>
+</table>
+
+
+
     <br />
 </asp:Content>
 
