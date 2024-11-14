@@ -31,7 +31,7 @@
     <a href="../InputValidationTesting/ReflectedCrossSiteScripting.aspx?user=admin">Test XSS (alert 123)</a><br><br />
 
 
-    Test with URL-encoded Payload:<br />
+    Test with URL-encoded Payload:<br /><br />
     <a href="../InputValidationTesting/ReflectedCrossSiteScripting.aspx?user=<script>alert(123)</script>">Test XSS (alert 123)</a><br>
     <a href="../InputValidationTesting/ReflectedCrossSiteScripting.aspx?user=%3Cscript%3Ealert(123)%3C%2Fscript%3E">Test XSS (URL-encoded alert)</a><br>
     <a href="../InputValidationTesting/ReflectedCrossSiteScripting.aspx?user=<script>alert(document.cookie)</script>">Test XSS (alert document.cookie)</a><br>
