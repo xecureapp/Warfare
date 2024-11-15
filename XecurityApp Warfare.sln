@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API ClassAuth", "API ClassAuth\API ClassAuth.csproj", "{339DAA8F-4110-4BDC-8A91-70EEBB2DBDCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XecurityAppWarfare-API", "API ClassAuth\XecurityAppWarfare-API.csproj", "{339DAA8F-4110-4BDC-8A91-70EEBB2DBDCB}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BuggyCompany", "BuggyCompany\", "{CC78F0EE-6776-40A4-A23D-520359D7830C}"
 	ProjectSection(WebsiteProperties) = preProject
